@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "セッションログ保存",
+  "description": "エージェント停止時に、今回のやり取りの要点を .kiro/steering/lp-project.md のやり取りログセクションに追記する",
+  "version": "1",
+  "when": {
+    "type": "agentStop"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "今回のセッションで行った作業・決定事項・変更点の要点を簡潔にまとめて、.kiro/steering/lp-project.md の「やり取りログ」セクションに新しいセッションエントリとして追記してください。日付と箇条書きで記録してください。既存のログは消さないこと。"
+  }
+}

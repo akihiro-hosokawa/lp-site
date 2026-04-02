@@ -1,0 +1,48 @@
+/* スムーズスクロール */
+html {
+  scroll-behavior: smooth;
+}
+
+/* フェードインアニメーション */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* FAQ アコーディオン */
+.faq-icon.open {
+  transform: rotate(180deg);
+}
+
+/* ナビゲーションのスクロール時スタイル */
+nav.scrolled {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* カウンターアニメーション用 */
+.counter {
+  font-variant-numeric: tabular-nums;
+}
+
+/* モバイルメニュー */
+@media (max-width: 767px) {
+  nav .hidden {
+    display: none;
+  }
+}
+
+/* ホバーエフェクト強化 */
+a {
+  transition: all 0.2s ease;
+}
+
+/* セクション間のスペーシング調整 */
+section {
+  overflow: hidden;
+}

@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社ファンリード 名古屋・大阪支社 採用ページ</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#2563eb',
+            'primary-dark': '#1d4ed8',
+            accent: '#06b6d4',
+            dark: '#0f172a',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- ナビゲーション -->
+  <nav class="fixed top-0 w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="text-xl font-bold text-primary">funlead</a>
+      <div class="hidden md:flex gap-6 text-sm">
+        <a href="#features" class="hover:text-primary transition">支社の特徴</a>
+        <a href="#projects" class="hover:text-primary transition">プロジェクト事例</a>
+        <a href="#career" class="hover:text-primary transition">キャリアパス</a>
+        <a href="#voices" class="hover:text-primary transition">社員の声</a>
+        <a href="#numbers" class="hover:text-primary transition">数字で見る</a>
+        <a href="#flow" class="hover:text-primary transition">採用の流れ</a>
+        <a href="#faq" class="hover:text-primary transition">FAQ</a>
+        <span class="text-gray-300">|</span>
+        <a href="https://www.funlead.co.jp/" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition">コーポレートサイト</a>
+        <a href="https://www.funlead.co.jp/recruit/" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition">採用情報</a>
+      </div>
+      <a href="https://www.funlead.co.jp/recruit/job/#job01" target="_blank" rel="noopener noreferrer" class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-primary-dark transition">エントリー</a>
+    </div>
+  </nav>
+
+  <!-- ヒーローセクション -->
+  <section id="hero" class="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-dark via-blue-900 to-primary text-white pt-16">
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute top-20 left-10 w-72 h-72 bg-accent rounded-full blur-3xl"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
+    </div>
+    <div class="relative z-10 text-center px-4 max-w-3xl mx-auto">
+      <p class="text-accent text-sm font-semibold tracking-widest mb-4">NAGOYA & OSAKA BRANCH</p>
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+        培ったスキルで、<br>新たな挑戦を。
+      </h1>
+      <p class="text-lg md:text-xl text-blue-200 mb-10 leading-relaxed">
+        名古屋・大阪を拠点に、あなたの技術力とキャリアを<br class="hidden md:block">
+        本気で伸ばせる環境がここにあります。
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://www.funlead.co.jp/recruit/job/#job01" target="_blank" rel="noopener noreferrer" class="bg-accent text-dark font-bold px-8 py-4 rounded-lg hover:bg-cyan-300 transition text-lg">エントリーする</a>
+        <a href="#features" class="border-2 border-white/30 text-white font-bold px-8 py-4 rounded-lg hover:bg-white/10 transition text-lg">詳しく見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 支社の特徴 -->
+  <section id="features" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-primary font-semibold text-sm tracking-widest mb-2">FEATURES</p>
+        <h2 class="text-3xl md:text-4xl font-bold">私たちの支社が選ばれる理由</h2>
+      </div>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition group">
+          <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition">
+            <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">案件の選択肢が豊富</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">Webアプリ開発・業務システム開発・クラウドインフラなど、名古屋・大阪エリアで200以上の取引先から最適な案件をマッチング。希望を最大限考慮します。</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition group">
+          <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition">
+            <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">キャリア支援が充実</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">上司が本人の志向・顧客評価・会社方針をもとに目標を一緒に設定。定期的に進捗を確認しながら方向修正を行い、キャリア実現に向けて伴走します。</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition group">
+          <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition">
+            <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">安心のサポート体制</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">客先常駐でも上司や営業が定期的にフォロー。困ったときにすぐ相談できる体制が整っているので、安心して業務に集中できます。</p>
+        </div>
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition group">
+          <div class="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition">
+            <svg class="w-7 h-7 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+          </div>
+          <h3 class="text-lg font-bold mb-3">裁量ある成長環境</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">まだ若い支社だからこそ、自分の意見や提案が通りやすい環境です。組織づくりにも関われるので、受け身ではなく主体的に働きたい方に最適です。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- プロジェクト事例 -->
+  <section id="projects" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-primary font-semibold text-sm tracking-widest mb-2">PROJECTS</p>
+        <h2 class="text-3xl md:text-4xl font-bold">参画プロジェクト事例</h2>
+        <p class="text-gray-500 mt-4">多様な業界・技術領域において、エンジニア一人ひとりが主体的に活躍しています</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- 製造業向け -->
+        <div class="border border-gray-200 rounded-2xl p-8 hover:border-primary/30 transition">
+          <span class="inline-block bg-blue-100 text-primary text-xs font-semibold px-3 py-1 rounded-full mb-4">Webシステム開発 / IoT</span>
+          <h3 class="text-lg font-bold mb-2">製造業向け Webシステム開発・IoT支援</h3>
+          <p class="text-gray-500 text-sm mb-4">工場設備のデータ収集・分析システム開発に参画。スクラム体制でフロントエンドおよびバックエンド開発を担当し、仕様検討から実装まで幅広く対応。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Azure</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Python</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">スクラム開発</span>
+          </div>
+        </div>
+        <!-- 建設業向け -->
+        <div class="border border-gray-200 rounded-2xl p-8 hover:border-primary/30 transition">
+          <span class="inline-block bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">業務システム開発</span>
+          <h3 class="text-lg font-bold mb-2">建設業向け 点検予約システム構築</h3>
+          <p class="text-gray-500 text-sm mb-4">建物の定期点検業務を効率化するシステムを構築。既存パッケージをベースに、業務要件に応じたカスタマイズ開発を担当。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Salesforce</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">カスタマイズ開発</span>
+          </div>
+        </div>
+        <!-- 医療機関向け -->
+        <div class="border border-gray-200 rounded-2xl p-8 hover:border-primary/30 transition">
+          <span class="inline-block bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">クラウドインフラ</span>
+          <h3 class="text-lg font-bold mb-2">医療機関向け 共通基盤更改</h3>
+          <p class="text-gray-500 text-sm mb-4">老朽化したインフラ基盤の刷新プロジェクトにチームリーダーとして参画。約250台の仮想マシン構築を実施し、顧客折衝やベンダー調整など上流工程も担当。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">VMware</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">上流工程</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">チームリーダー</span>
+          </div>
+        </div>
+        <!-- 通信業向け -->
+        <div class="border border-gray-200 rounded-2xl p-8 hover:border-primary/30 transition">
+          <span class="inline-block bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">クラウドインフラ</span>
+          <h3 class="text-lg font-bold mb-2">通信業向け 仮想基盤アップデート</h3>
+          <p class="text-gray-500 text-sm mb-4">1,000台規模の仮想マシンを対象とした基盤移行プロジェクトに参画。検証・移行計画・リソース調整を行いながら段階的なアップデートを推進。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">vSphere</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">移行計画</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">大規模環境</span>
+          </div>
+        </div>
+        <!-- 金融業向け -->
+        <div class="border border-gray-200 rounded-2xl p-8 hover:border-primary/30 transition">
+          <span class="inline-block bg-orange-100 text-orange-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">RPA / 業務効率化</span>
+          <h3 class="text-lg font-bold mb-2">金融業向け RPA開発・業務効率化</h3>
+          <p class="text-gray-500 text-sm mb-4">業務自動化を目的としたRPAシナリオの設計・開発・運用を担当。業務ヒアリングから改善提案まで関わり、サブリーダーとしてチーム運営にも携わる。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">RPA</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">業務改善</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">サブリーダー</span>
+          </div>
+        </div>
+        <!-- 物流業向け -->
+        <div class="border border-gray-200 rounded-2xl p-8 hover:border-primary/30 transition">
+          <span class="inline-block bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">業務システム開発</span>
+          <h3 class="text-lg font-bold mb-2">物流業向け 業務管理システム開発</h3>
+          <p class="text-gray-500 text-sm mb-4">新規開発および既存システムの機能改善に参画。基本設計から保守まで一貫して対応し、顧客との要件整理・提案にも関与。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">基本設計</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">要件定義</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">保守運用</span>
+          </div>
+        </div>
+        <!-- ネットワーク導入 -->
+        <div class="border border-gray-200 rounded-2xl p-8 hover:border-primary/30 transition md:col-span-2">
+          <span class="inline-block bg-cyan-100 text-cyan-700 text-xs font-semibold px-3 py-1 rounded-full mb-4">ネットワーク / PM</span>
+          <h3 class="text-lg font-bold mb-2">企業向け ネットワーク導入プロジェクト（PM）</h3>
+          <p class="text-gray-500 text-sm mb-4">企業向けネットワーク機器の導入をプロジェクトマネージャーとして担当。設計・検証・ドキュメント作成から進行管理まで一貫して推進。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">Cisco Catalyst</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">PM</span>
+            <span class="bg-gray-100 text-gray-600 text-xs px-2 py-1 rounded">設計・検証</span>
+          </div>
+        </div>
+      </div>
+      <!-- ポイント -->
+      <div class="mt-12 bg-gray-50 rounded-2xl p-8">
+        <div class="grid md:grid-cols-3 gap-6 text-center">
+          <div>
+            <p class="text-primary font-bold text-sm mb-1">幅広い業界</p>
+            <p class="text-gray-500 text-xs">製造 / 金融 / 通信 / 医療 / 建設 / 物流</p>
+          </div>
+          <div>
+            <p class="text-primary font-bold text-sm mb-1">多様な技術領域</p>
+            <p class="text-gray-500 text-xs">Web・クラウド・インフラ・RPA・ネットワーク</p>
+          </div>
+          <div>
+            <p class="text-primary font-bold text-sm mb-1">幅広い役割</p>
+            <p class="text-gray-500 text-xs">メンバー 〜 リーダー 〜 PM まで活躍可能</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- キャリアパス -->
+  <section id="career" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-primary font-semibold text-sm tracking-widest mb-2">CAREER PATH</p>
+        <h2 class="text-3xl md:text-4xl font-bold">目指せるキャリアの方向性</h2>
+        <p class="text-gray-500 mt-4">エンジニア一人ひとりの志向に合わせてキャリアを描くことができます</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- スペシャリスト志向 -->
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition group">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center text-2xl group-hover:scale-110 transition">🔧</div>
+            <div>
+              <h3 class="text-lg font-bold">スペシャリスト志向</h3>
+              <p class="text-primary text-sm font-semibold">技術を磨き続ける</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">特定領域のプロフェッショナルとして技術力を深めていく方向。設計・レビュー・技術選定を通じてプロジェクトの品質を支えます。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-50 text-primary text-xs px-3 py-1 rounded-full">フルスタックエンジニア</span>
+            <span class="bg-blue-50 text-primary text-xs px-3 py-1 rounded-full">クラウドアーキテクト</span>
+            <span class="bg-blue-50 text-primary text-xs px-3 py-1 rounded-full">テックリード</span>
+          </div>
+        </div>
+        <!-- マネジメント志向 -->
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition group">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-14 h-14 bg-cyan-100 rounded-xl flex items-center justify-center text-2xl group-hover:scale-110 transition">👥</div>
+            <div>
+              <h3 class="text-lg font-bold">マネジメント志向</h3>
+              <p class="text-accent text-sm font-semibold">組織とプロジェクトを動かす</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">プロジェクトや組織をリードするポジションへ。進行管理・顧客折衝・メンバー育成を通じて、チーム全体の成果を最大化します。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-cyan-50 text-accent text-xs px-3 py-1 rounded-full">PL</span>
+            <span class="bg-cyan-50 text-accent text-xs px-3 py-1 rounded-full">PM</span>
+            <span class="bg-cyan-50 text-accent text-xs px-3 py-1 rounded-full">組織マネージャー</span>
+          </div>
+        </div>
+        <!-- 上流工程・コンサル志向 -->
+        <div class="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition group">
+          <div class="flex items-center gap-4 mb-5">
+            <div class="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center text-2xl group-hover:scale-110 transition">💡</div>
+            <div>
+              <h3 class="text-lg font-bold">上流工程・コンサル志向</h3>
+              <p class="text-green-600 text-sm font-semibold">顧客課題の解決に深く関わる</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed mb-4">要件定義・提案フェーズを中心に、顧客の業務課題をヒアリングし最適なIT戦略を提案。技術知見をベースにビジネス視点で価値を届けます。</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-50 text-green-600 text-xs px-3 py-1 rounded-full">要件定義・提案</span>
+            <span class="bg-green-50 text-green-600 text-xs px-3 py-1 rounded-full">ITコンサルタント</span>
+            <span class="bg-green-50 text-green-600 text-xs px-3 py-1 rounded-full">DX推進</span>
+          </div>
+        </div>
+      </div>
+      <!-- キャリア支援の特徴 -->
+      <div class="mt-8 max-w-3xl mx-auto">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+          <div class="bg-white rounded-xl p-4 shadow-sm">
+            <p class="text-xs text-gray-600">定期面談による<br>キャリア設計支援</p>
+          </div>
+          <div class="bg-white rounded-xl p-4 shadow-sm">
+            <p class="text-xs text-gray-600">フィードバックを<br>成長に反映</p>
+          </div>
+          <div class="bg-white rounded-xl p-4 shadow-sm">
+            <p class="text-xs text-gray-600">実践的な<br>スキル習得</p>
+          </div>
+          <div class="bg-white rounded-xl p-4 shadow-sm">
+            <p class="text-xs text-gray-600">新しい技術領域への<br>チャレンジを支援</p>
+          </div>
+        </div>
+      </div>
+      <!-- 締めコピー -->
+      <div class="text-center mt-12">
+        <p class="text-gray-500 text-sm leading-relaxed max-w-2xl mx-auto">多様なプロジェクトと選べるキャリア。<br>あなたの"なりたいエンジニア像"を、ここで実現できます。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 社員の声 -->
+  <section id="voices" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-primary font-semibold text-sm tracking-widest mb-2">VOICES</p>
+        <h2 class="text-3xl md:text-4xl font-bold">社員の声</h2>
+      </div>
+      <!-- 上段3人 -->
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div class="bg-gray-50 rounded-2xl p-8">
+          <div class="flex items-center gap-4 mb-6">
+            <img src="images/avatar-KT.png" alt="K.T さんのアバター" class="w-14 h-14 rounded-full object-cover">
+            <div>
+              <p class="font-bold">K.T さん</p>
+              <p class="text-gray-500 text-sm">名古屋・大阪支社 / 入社5年目</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed">「風通しの良さが一番の魅力だと感じています。『こんな技術に挑戦したい』『こういう環境で働きたい』といった相談や要望が通りやすく、背中を押してくれる上長が多いので、自分の意志でキャリアを切り拓いていける実感があります。」</p>
+        </div>
+        <div class="bg-gray-50 rounded-2xl p-8">
+          <div class="flex items-center gap-4 mb-6">
+            <img src="images/avatar-SN.png" alt="S.N さんのアバター" class="w-14 h-14 rounded-full object-cover">
+            <div>
+              <p class="font-bold">S.N さん</p>
+              <p class="text-gray-500 text-sm">名古屋・大阪支社 / 入社3年目</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed">「まだ発展途上の組織だからこそ、技術だけでなく組織マネジメントにもチャレンジできる環境があります。意欲や適性を見て任せてもらえるので、大変さはありますが、その分やりがいを感じながら日々成長できています。」</p>
+        </div>
+        <div class="bg-gray-50 rounded-2xl p-8">
+          <div class="flex items-center gap-4 mb-6">
+            <img src="images/avatar-RM.png" alt="R.M さんのアバター" class="w-14 h-14 rounded-full object-cover">
+            <div>
+              <p class="font-bold">R.M さん</p>
+              <p class="text-gray-500 text-sm">名古屋・大阪支社 / 入社6年目</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed">「一番の魅力は、自分に合った案件を親身に探してくれるサポート体制です。子育て中で時短勤務を利用していますが、周囲の理解も深く、限られた時間の中でも最大限力を発揮できるよう配慮してもらえるので、育児とキャリアを無理なく両立できています。」</p>
+        </div>
+      </div>
+      <!-- 下段2人（上段の中央に揃えて配置） -->
+      <div class="flex justify-center gap-8 mt-8">
+        <div class="bg-gray-50 rounded-2xl p-8 w-full md:w-1/3">
+          <div class="flex items-center gap-4 mb-6">
+            <img src="images/avatar-HI.png" alt="H.I さんのアバター" class="w-14 h-14 rounded-full object-cover">
+            <div>
+              <p class="font-bold">H.I さん</p>
+              <p class="text-gray-500 text-sm">名古屋・大阪支社 / 入社3年目</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed">「自分のスキルより少し上のレベルの案件にも挑戦させてもらえるのが、この会社の良いところです。わからないことがあっても上司や先輩がしっかりフォローしてくれるので、不安よりも成長している実感の方が大きいです。背伸びしながらも安心して前に進める環境だと思います。」</p>
+        </div>
+        <div class="bg-gray-50 rounded-2xl p-8 w-full md:w-1/3">
+          <div class="flex items-center gap-4 mb-6">
+            <img src="images/avatar-TM.png" alt="T.M さんのアバター" class="w-14 h-14 rounded-full object-cover">
+            <div>
+              <p class="font-bold">T.M さん</p>
+              <p class="text-gray-500 text-sm">名古屋・大阪支社 / 入社1年目</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm leading-relaxed">「前職での経験が活きる案件に就きながらも、新しい領域にチャレンジできる環境が整っています。社内のサポートも丁寧で、業務に集中できるよう細やかに配慮してもらえるので、入社1年目からしっかりとキャリア目標を立てて前に進めている実感があります。」</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 社内の雰囲気 -->
+  <section id="gallery" class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-primary font-semibold text-sm tracking-widest mb-2">GALLERY</p>
+        <h2 class="text-3xl md:text-4xl font-bold">社内の雰囲気</h2>
+        <p class="text-gray-500 mt-4">懇親会や社内イベントなど、普段の雰囲気をお届けします</p>
+      </div>
+      <div class="relative h-[500px] max-w-3xl mx-auto">
+        <!-- 写真1: 左上 -->
+        <div class="absolute top-0 left-0 w-56 md:w-64 shadow-lg rounded-lg overflow-hidden transform -rotate-6 z-10 hover:z-50 hover:scale-105 transition">
+          <img src="images/gallery-01.jpeg" alt="玄関の会社ロゴ看板" class="w-full aspect-[4/3] object-cover">
+        </div>
+        <!-- 写真2: 中央上 -->
+        <div class="absolute top-4 left-1/2 -translate-x-1/2 w-56 md:w-64 shadow-lg rounded-lg overflow-hidden transform rotate-3 z-20 hover:z-50 hover:scale-105 transition">
+          <img src="images/gallery-02.jpg" alt="懇親会の様子" class="w-full aspect-[4/3] object-cover">
+        </div>
+        <!-- 写真3: 右上 -->
+        <div class="absolute top-8 right-0 w-56 md:w-64 shadow-lg rounded-lg overflow-hidden transform -rotate-3 z-15 hover:z-50 hover:scale-105 transition">
+          <img src="images/gallery-03.jpeg" alt="執務室" class="w-full aspect-[4/3] object-cover">
+        </div>
+        <!-- 写真4: 左寄り中央下（縦型） -->
+        <div class="absolute top-36 left-1/4 -translate-x-1/2 w-40 md:w-48 shadow-lg rounded-lg overflow-hidden transform rotate-6 z-25 hover:z-50 hover:scale-105 transition">
+          <img src="images/gallery-04.jpg" alt="懇親会の様子" class="w-full aspect-[3/4] object-cover">
+        </div>
+        <!-- 写真5: 右寄り中央下 -->
+        <div class="absolute top-44 left-1/2 w-56 md:w-64 shadow-lg rounded-lg overflow-hidden transform -rotate-4 z-30 hover:z-50 hover:scale-105 transition">
+          <img src="images/gallery-05.jpeg" alt="会議室" class="w-full aspect-[4/3] object-cover">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数字で見る支社 -->
+  <section id="numbers" class="py-20 bg-gradient-to-br from-dark via-blue-900 to-primary text-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-accent font-semibold text-sm tracking-widest mb-2">NUMBERS</p>
+        <h2 class="text-3xl md:text-4xl font-bold">数字で見る名古屋・大阪支社</h2>
+      </div>
+      <!-- 上段4つ -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <p class="text-base text-blue-300 font-semibold tracking-wide mb-1">月平均残業時間</p>
+          <p class="text-sm text-blue-300/70 mb-3">プライベートも大切にできる働き方</p>
+          <p class="text-4xl md:text-5xl font-bold text-accent counter" data-target="10">0</p>
+          <p class="text-sm text-blue-200 mt-2">時間未満</p>
+        </div>
+        <div class="text-center">
+          <p class="text-base text-blue-300 font-semibold tracking-wide mb-1">有給平均取得日数</p>
+          <p class="text-sm text-blue-300/70 mb-3">しっかり休んでしっかり働ける環境</p>
+          <p class="text-4xl md:text-5xl font-bold text-accent counter" data-target="13">0</p>
+          <p class="text-sm text-blue-200 mt-2">日</p>
+        </div>
+        <div class="text-center">
+          <p class="text-base text-blue-300 font-semibold tracking-wide mb-1">リモート案件比率（ハイブリッド含む）</p>
+          <p class="text-sm text-blue-300/70 mb-3">時間を有効に活用できる案件が豊富</p>
+          <p class="text-4xl md:text-5xl font-bold text-accent counter" data-target="80">0</p>
+          <p class="text-sm text-blue-200 mt-2">%以上</p>
+        </div>
+        <div class="text-center">
+          <p class="text-base text-blue-300 font-semibold tracking-wide mb-1">サポート面談</p>
+          <p class="text-sm text-blue-300/70 mb-3">困ったときにすぐ頼れるフォロー体制</p>
+          <p class="text-4xl md:text-5xl font-bold text-accent counter" data-target="1">0</p>
+          <p class="text-sm text-blue-200 mt-2">回以上／月実施</p>
+        </div>
+      </div>
+      <!-- 下段3つ（中央寄せ） -->
+      <div class="flex justify-center gap-8 mt-8">
+        <div class="text-center w-1/2 md:w-1/4">
+          <p class="text-base text-blue-300 font-semibold tracking-wide mb-1">提案可能企業数</p>
+          <p class="text-sm text-blue-300/70 mb-3">あなたに合う案件が見つかる環境</p>
+          <p class="text-4xl md:text-5xl font-bold text-accent counter" data-target="100">0</p>
+          <p class="text-sm text-blue-200 mt-2">社以上</p>
+        </div>
+        <div class="text-center w-1/2 md:w-1/4">
+          <p class="text-base text-blue-300 font-semibold tracking-wide mb-1">エンジニア数</p>
+          <p class="text-sm text-blue-300/70 mb-3">組織成長中につきチャンスも豊富</p>
+          <p class="text-4xl md:text-5xl font-bold text-accent counter" data-target="15">0</p>
+          <p class="text-sm text-blue-200 mt-2">名</p>
+        </div>
+        <div class="text-center w-1/2 md:w-1/4">
+          <p class="text-base text-blue-300 font-semibold tracking-wide mb-1">平均年齢</p>
+          <p class="text-sm text-blue-300/70 mb-3">現場で培った知見を持つメンバーが豊富</p>
+          <p class="text-4xl md:text-5xl font-bold text-accent counter" data-target="30">0</p>
+          <p class="text-sm text-blue-200 mt-2">代中盤</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 採用の流れ -->
+  <section id="flow" class="py-20">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-primary font-semibold text-sm tracking-widest mb-2">FLOW</p>
+        <h2 class="text-3xl md:text-4xl font-bold">採用の流れ</h2>
+        <p class="text-gray-500 mt-4">応募から内定まで最短2週間。まずはお気軽にご応募ください。</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+          <h3 class="font-bold mb-2">エントリー</h3>
+          <p class="text-gray-500 text-sm">フォームからお気軽にご応募ください。</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+          <h3 class="font-bold mb-2">面接（1〜2回）</h3>
+          <p class="text-gray-500 text-sm">堅苦しくないフランクな雰囲気で、<br>リラックスしてお話しいただけます。</p>
+        </div>
+        <div class="text-center">
+          <div class="w-16 h-16 bg-accent text-dark rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">✓</div>
+          <h3 class="font-bold mb-2">内定・入社</h3>
+          <p class="text-gray-500 text-sm">入社日は柔軟に調整可能。<br>案件マッチングを経てスタートします。</p>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <p class="text-gray-500 text-sm leading-relaxed">※ ご希望の方には、選考前にカジュアル面談（オンライン・30分程度）も実施しています。お気軽にご相談ください。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="py-20 bg-gray-50">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="text-center mb-16">
+        <p class="text-primary font-semibold text-sm tracking-widest mb-2">FAQ</p>
+        <h2 class="text-3xl md:text-4xl font-bold">よくある質問</h2>
+      </div>
+      <div class="space-y-4">
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">案件は選べますか？希望はどこまで反映されますか？</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">モダン技術や上流工程、PL/PMなどのポジションに関わることはできますか？</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">チームでの参画は可能ですか？</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">どのような案件が多いですか？（業界・工程・技術領域など）</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">営業担当はどこまでフォローしてくれますか？</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">キャリアアップに向けた支援体制はどのようになっていますか？</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">評価や給与、案件の切り替え時の待遇はどのように決まりますか？</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+        <div class="faq-item bg-white rounded-xl shadow-sm">
+          <button class="faq-toggle w-full text-left px-6 py-5 flex items-center justify-between" aria-expanded="false">
+            <span class="font-semibold">入社の流れ（案件参画までのプロセス）を教えてください</span>
+            <svg class="w-5 h-5 text-gray-400 faq-icon transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </button>
+          <div class="faq-content hidden px-6 pb-5">
+            <p class="text-gray-600 text-sm leading-relaxed">（回答準備中）</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- エントリーCTA -->
+  <section id="entry" class="py-20 bg-primary">
+    <div class="max-w-3xl mx-auto px-4 text-center text-white">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">一緒に、次のキャリアを<br>つくりませんか？</h2>
+      <p class="text-blue-200 mb-10 leading-relaxed">名古屋・大阪で、エンジニアとして成長できる環境があなたを待っています。<br>まずはカジュアル面談から、お気軽にどうぞ。</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://www.funlead.co.jp/recruit/job/#job01" target="_blank" rel="noopener noreferrer" class="bg-accent text-dark font-bold px-10 py-4 rounded-lg hover:bg-cyan-300 transition text-lg">エントリーフォームへ</a>
+        <a href="https://www.funlead.co.jp/recruit/job/#job01" target="_blank" rel="noopener noreferrer" class="border-2 border-white/30 text-white font-bold px-10 py-4 rounded-lg hover:bg-white/10 transition text-lg">カジュアル面談を申し込む</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="bg-dark text-gray-400 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <p class="text-white font-bold text-lg mb-4">funlead</p>
+          <p class="text-sm leading-relaxed mb-4">株式会社ファンリード<br>名古屋・大阪支社</p>
+          <div class="flex flex-col gap-2 text-sm">
+            <a href="https://www.funlead.co.jp/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">コーポレートサイト →</a>
+            <a href="https://www.funlead.co.jp/recruit/" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">採用情報サイト →</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-white font-semibold mb-4">名古屋・大阪支社</p>
+          <p class="text-sm leading-relaxed">〒460-0003<br>愛知県名古屋市中区錦2-9-14<br>伏見スクエアビル9F</p>
+        </div>
+        <div>
+          <p class="text-white font-semibold mb-4">大阪サテライト</p>
+          <p class="text-sm leading-relaxed">〒530-0051<br>大阪府大阪市北区太融寺町5-13<br>東梅田パークビル2F</p>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 pt-8 text-center text-sm">
+        <p>&copy; 2026 funlead corp. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
