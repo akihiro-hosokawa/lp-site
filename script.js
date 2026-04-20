@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // FAQ アコーディオン
   document.querySelectorAll('.faq-toggle').forEach(btn => {
     btn.addEventListener('click', () => {
+      const item = btn.closest('.faq-item');
       const content = btn.nextElementSibling;
       const icon = btn.querySelector('.faq-icon');
       const isOpen = !content.classList.contains('hidden');
@@ -39,11 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
       document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('open'));
       document.querySelectorAll('.faq-toggle').forEach(b => b.setAttribute('aria-expanded', 'false'));
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('faq-open'));
 
       if (!isOpen) {
         content.classList.remove('hidden');
         icon.classList.add('open');
         btn.setAttribute('aria-expanded', 'true');
+        item.classList.add('faq-open');
       }
     });
   });

@@ -1,0 +1,9 @@
+[33md4ef969[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: rebase (finish): returning to refs/heads/main
+[33md4ef969[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{1}: rebase (finish): refs/heads/main onto ce929b6e6b49b48a4141568f38559be73886c250
+[33md4ef969[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{2}: checkout: moving from main to main
+[33md4ef969[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{3}: checkout: moving from 851026a8409263f80c7adb73ebbc930009bf4977 to main
+[33m851026a[m HEAD@{4}: commit: 20260402_目指せるキャリアの方向性を修正
+[33m3e51905[m HEAD@{5}: commit: test
+[33mce929b6[m HEAD@{6}: pull origin main --rebase (start): checkout ce929b6e6b49b48a4141568f38559be73886c250
+[33md4ef969[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{7}: Branch: renamed refs/heads/main to refs/heads/main
+[33md4ef969[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{9}: commit (initial): initial commit
