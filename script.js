@@ -78,7 +78,8 @@ function animateCounter(el, target) {
     if (progress < 1) {
       requestAnimationFrame(update);
     } else {
-      el.textContent = target;
+      const isDecimal = target % 1 !== 0;
+      el.textContent = isDecimal ? target.toFixed(1) : target;
     }
   }
 
