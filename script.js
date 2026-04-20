@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const el = entry.target;
-        const target = parseInt(el.dataset.target, 10);
+        const target = parseFloat(el.dataset.target);
         animateCounter(el, target);
         counterObserver.unobserve(el);
       }
@@ -72,7 +72,8 @@ function animateCounter(el, target) {
     const progress = Math.min(elapsed / duration, 1);
     // イージング（ease-out）
     const eased = 1 - Math.pow(1 - progress, 3);
-    el.textContent = Math.floor(eased * target);
+    const isDecimal = target % 1 !== 0;
+    el.textContent = isDecimal ? (eased * target).toFixed(1) : Math.floor(eased * target);
 
     if (progress < 1) {
       requestAnimationFrame(update);
