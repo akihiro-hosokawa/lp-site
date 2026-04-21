@@ -800,3 +800,12 @@ ITエンジニアの派遣・SESによる客先常駐型の支援事業を行う
 - フッターロゴは白背景のまま一旦関係者に共有する方針に決定
 - 白抜き版ロゴの対応はフィードバック後に検討
 - GitHubへのpush手順を案内
+
+### セッション142（2026-04-21）
+- フッターの配色を全面変更・反映（ロゴの白背景・黒文字に合わせるため）
+- 背景：bg-dark（濃紺）→ bg-white（白）
+- 本文テキスト：text-gray-400 → text-gray-600（濃いグレー）
+- 見出し：text-white → text-gray-800（ほぼ黒）
+- リンクホバー：hover:text-white → hover:text-primary（青）
+- ボーダー：border-gray-700 → border-gray-200（薄いグレー）
+- ロゴのmix-blend-mode: screenを削除（不要になったため）
